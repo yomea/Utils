@@ -13,18 +13,6 @@ import java.util.zip.ZipOutputStream;
 
 public class ZipUtils
 {
-
-    public static void main(String[] args) throws Exception
-    {
-
-        String targetPath = "D:\\haha.zip";
-
-        String srcPath = "D:\\毕业设计\\";
-
-        zipFile(srcPath, targetPath);
-
-    }
-
     public static void zipFile(String srcPath, String targetPath)
     {
         OutputStream out = null;
